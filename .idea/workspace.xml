@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a051dd6-5d98-44c3-9e80-be04edc712d3" name="Changes" comment="First test implemented, Constructor test working, up and running" />
+    <list default="true" id="1a051dd6-5d98-44c3-9e80-be04edc712d3" name="Changes" comment="Implemented method fill">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campus02/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/CoffeeMachine.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682973070693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented method fill">
+      <created>1682973808283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682973808283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +139,7 @@
     <MESSAGE value="Basic project setup, insert personal data" />
     <MESSAGE value="Basic project setup, insert personal data, inital commit" />
     <MESSAGE value="First test implemented, Constructor test working, up and running" />
-    <option name="LAST_COMMIT_MESSAGE" value="First test implemented, Constructor test working, up and running" />
+    <MESSAGE value="Implemented method fill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented method fill" />
   </component>
 </project>
