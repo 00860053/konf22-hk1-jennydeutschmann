@@ -9,7 +9,7 @@ public class CoffeeMachine {
 
     public CoffeeMachine(int maxWaterLevel, int maxCoffeeBeansLevel) {
         this.maxWaterLevel = maxWaterLevel;
-        this.maxCoffeeBeansLevel = 0;
+        this.maxCoffeeBeansLevel = maxCoffeeBeansLevel;
         this.currentWaterLevel = 0;
         this.currentCoffeeBeansLevel = 0;
     }

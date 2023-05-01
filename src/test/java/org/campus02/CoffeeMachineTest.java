@@ -1,16 +1,20 @@
 package org.campus02;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CoffeeMachineTest {
-
-
-
     /**
      * create a coffeemachine and verify the initial values
      */
+    CoffeeMachine coffeeMachine = new CoffeeMachine(300, 150);
     @Test
     void testConstructor() {
+        assertEquals(300, coffeeMachine.getMaxWaterLevel());
+        assertEquals(150, coffeeMachine.getMaxCoffeeBeansLevel());
+        assertEquals(0, coffeeMachine.getCurrentWaterLevel());
+        assertEquals(50, coffeeMachine.getCurrentCoffeeBeansLevel());
 
     }
 

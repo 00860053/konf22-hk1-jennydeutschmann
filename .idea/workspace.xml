@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a051dd6-5d98-44c3-9e80-be04edc712d3" name="Changes" comment="Basic project setup, insert personal data" />
+    <list default="true" id="1a051dd6-5d98-44c3-9e80-be04edc712d3" name="Changes" comment="Basic project setup, insert personal data, inital commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campus02/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/CoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/campus02/CoffeeMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/campus02/CoffeeMachineTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +34,45 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CoffeeMachineTest.testConstructor">
+    <configuration name="CoffeeMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coffee-machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campus02" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.CoffeeMachineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeMachineTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coffee-machine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campus02" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.CoffeeMachineTest" />
+      <option name="METHOD_NAME" value="testConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CoffeeMachineTest.testConstructor" />
+        <item itemvalue="JUnit.CoffeeMachineTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682971196612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basic project setup, insert personal data, inital commit">
+      <created>1682971322912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682971322912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic project setup, insert of personal data" />
     <MESSAGE value="Basic project setup, insert personal data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic project setup, insert personal data" />
+    <MESSAGE value="Basic project setup, insert personal data, inital commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic project setup, insert personal data, inital commit" />
   </component>
 </project>
