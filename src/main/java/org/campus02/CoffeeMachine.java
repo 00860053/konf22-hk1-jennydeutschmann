@@ -47,10 +47,12 @@ public class CoffeeMachine {
      *
      */
     public void fill() {
-        // TODO fill machine
-        // currentWaterLevel to maxWaterLevel
-        // currentCoffeeBeansLevel to maxCoffeeBeansLevel
+        if (currentWaterLevel < maxWaterLevel || currentCoffeeBeansLevel < maxCoffeeBeansLevel) {
+            currentWaterLevel = maxWaterLevel;
+            currentCoffeeBeansLevel = maxCoffeeBeansLevel;
+        }
     }
+
 
     /**
      * if currentWaterLevel < 100 mililiters
